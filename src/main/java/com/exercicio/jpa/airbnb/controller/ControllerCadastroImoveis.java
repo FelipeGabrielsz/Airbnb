@@ -2,7 +2,6 @@ package com.exercicio.jpa.airbnb.controller;
 
 import com.exercicio.jpa.airbnb.Imoveis;
 import com.exercicio.jpa.airbnb.JpaRepository.RepositoryImoveis;
-import com.exercicio.jpa.airbnb.Locator;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,9 +1,7 @@
 package com.exercicio.jpa.airbnb.controller;
 
 import com.exercicio.jpa.airbnb.JpaRepository.RepositoryLocator;
-import com.exercicio.jpa.airbnb.Locatario;
 import com.exercicio.jpa.airbnb.Locator;
-import com.exercicio.jpa.airbnb.service.FiltrosLocator;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
@@ -14,7 +12,6 @@ import java.util.List;
 public class ControllerLocator {
 
     RepositoryLocator repositoryLocator;
-    FiltrosLocator filtro;
 
     @GetMapping("/locator")
     public List<Locator> getAllUserLocatario(){
